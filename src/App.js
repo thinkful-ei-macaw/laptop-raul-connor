@@ -73,7 +73,8 @@ class App extends Component {
         <main>
           <Customize features={this.props.features}
             updateFeature={this.updateFeature}
-            selected={this.state.selected} />
+            selected={this.state.selected}
+            USCurrencyFormat={USCurrencyFormat} />
 
           <section className="main__summary">
             <h2>Your cart</h2>
