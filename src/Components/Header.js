@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default Header() {
+function Header() {
   return (
     <header>
       <h1>ELF Computing | Laptops</h1>
@@ -8,3 +8,4 @@ export default Header() {
   )
 }
 
+export default Header
